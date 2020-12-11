@@ -1,6 +1,5 @@
 //inbuilt sort function
 #include<iostream>
-#include<algorithm>
 
 using namespace std;
 
@@ -23,7 +22,6 @@ int main()
 		cin>>a[i];
 	}
 	//sorting of array using sort functiom
-	
 	sort(a,a+n,compare);                  //here we are not calling the compare function we just sending a function as a parameter  to another function
 	
 	for(int i=0;i<n;i++)
